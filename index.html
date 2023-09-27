@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!--TOPO-->
+    <div id="top">
+        <div>
+            <h1 id="title">
+                Tradição em projetos de arquitetura <br>
+            </h1>
+            <p>
+                Arquitetura residencial e comercial.
+            </p>
+        </div> 
+        </div>
+    <!--SEÇÃO DE DADOS-->
+    <div id="dados">
+        <div>
+            <p>
+            <h1 class="numbers">850</h1>
+                empreendimentos construídos
+            </p>
+        </div>
+        <div>
+            <p>
+                <h1 class="numbers">40</h1>
+                anos de mercado e experiência 
+            </p>
+        </div >
+        <div>
+            <p>
+                <h1 class="numbers">2.000,000</h1>
+                m² em projetos construídos
+            </p>
+        </div>
+    </div>
+<!--HISTORIA E IMAGEM-->
+    <div id="historic">
+        <div>
+            <h1 id="title-historic">
+                Arquitetos com História e Experiência.
+            </h1> <br>
+            <p>
+                Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
+                como principal proposta transformar em realidade os sonhos de <br>
+                seus clientes, criando projetos personalizados, unindo a tradição <br>
+                e a modernidade em nossos projetos.
+            </p>
+        </div>
+        <img id="imagemprincipal" onclick="AlterarImagem()" src="./imagens/projeto.svg" alt="ERROR 99">
+        <img id="imagemsecundaria" onclick="AlterarImagem2()" src="./imagens/secundaria.svg" alt="ERROR 98">
+    </div>
+    <!--CADASTRO-->
+    <div id="cadastro">
+        <h1 id="titulo-cadastro">Conheça mais sobre nossos serviços:</h1> <br>
+        <form action="https://api.sheetmonkey.io/form/vb6b8FEFxvbX2JPxYPq9eG" method="post">
+            <input type="text" placeholder="Nome" name="Name" required> <br> <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /> 
+            <button type="submit">Fale Conosco</button>
+        </form>
+    </div>
+         <script src="index.js"></script>
+</body>
+</html>
